@@ -1,4 +1,6 @@
-import { Container, Main, Navbar, Content, Panel, Slides } from "./App.styled";
+import { Container, Main, Content, Panel, Slides, Layout } from "./App.styled";
+
+import Navbar from "./components/navbar/Navbar.component";
 
 function App() {
   return (
@@ -6,9 +8,11 @@ function App() {
       <Navbar />
       <Main>
         <Panel></Panel>
-        <Content></Content>
+        <Layout>
+          <Content></Content>
+          <Slides></Slides>
+        </Layout>
       </Main>
-      <Slides></Slides>
     </Container>
   );
 }
