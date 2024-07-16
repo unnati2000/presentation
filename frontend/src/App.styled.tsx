@@ -39,13 +39,6 @@ export const Panel = styled.div`
 `;
 
 export const Content = styled.div`
-  border: solid 1px red;
   height: 100%;
+  padding: 16px;
 `;
-
-export const Slides = styled.div`
-  border: solid 1px blue;
-  min-height: 100px;
-  width: 100%;
-`;
-
